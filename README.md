@@ -1,8 +1,8 @@
 # car_price_analysis
- This repository contains files that cleaned, engineered and made predictions using different regression models as well as evaluating all the models to see the best performing model.
+ This repository contains files that were cleaned, engineered and used to make predictions using different regression models as well as evaluating all the models to see the best performing model.
 
  ## THE LIST OF PROJECTS IN THIS REPOSITORY SO FAR ARE;
- <b>----------------------------------------------------------------------------------------</b>
+<hr>
 <h2><b>1. Cleaning A car price dataset</b></h2>A jupyter notebook file that consists of python libraries used to clean a csv dataset "cars.data", the dataset contains several columns and empty rows that needed cleaning, dummy variables was created becuae the csv file is going to be used for some machine learning models and the notebook was created and step by step comments on each block was made so as to make the user understand what happens per block of code. <b>Name of project (car_price_cleaning.ipynb)</b>
 
 ## Technology used in this project
@@ -19,7 +19,7 @@
 ## How to setup this project;
 To run this project after pulling it you just need to ensure that the above libraries are installed on work environment of your choice (Your notebook).
 
-<b>----------------------------------------------------------------------------------------</b>
+<hr>
 
 <h2><b>2. Engineering Features on a dataset</b></h2>This dataset has already been cleaned in the first notebook (car_price_cleaning.ipynb), the already cleaned dataset was then imported into this notebook, feature engineering (Called data engineering by some people) was done on the dataset to pick the features that can actually be used in our model for a better accuracy. <b>Name of project (car_price_engineering.ipynb)</b>
 
@@ -38,7 +38,7 @@ To run this project after pulling it you just need to ensure that the above libr
 ## How to setup this project;
 To run this project after pulling it you just need to ensure that the above libraries are installed on work environment of your choice (Your notebook).
 
-<b>----------------------------------------------------------------------------------------</b>
+<hr>
 <h2><b>3. Model Creation and prediction on a dataset</b></h2>This dataset has already been cleaned in the first notebook (car_price_cleaning.ipynb), the already cleaned and used to engineer the features in (car_price_engineering.ipynb), the already engineered features were used to train models and and make prediction, after the models have been trained they were tested and evaluated. <b>Name of project (car_price_model.ipynb)</b>
 
 ## Technology used in this project
